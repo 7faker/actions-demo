@@ -26,5 +26,5 @@ jobs:
     - name: LGTM Reaction
       uses: micnncim/action-lgtm-reaction@v0.6.0
       with:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        accessToken: ${{ secrets.ACCESS_TOKEN }}
         source: lgtmapp
