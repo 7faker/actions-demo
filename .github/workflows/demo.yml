@@ -25,5 +25,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: LGTM Reaction
       uses: micnncim/action-lgtm-reaction@v0.6.0
+      env:
+        GITHUB_TOKEN: ${{ secrets.hello }}
       with:
         source: lgtmapp
